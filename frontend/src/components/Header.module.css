@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7d8894;
+  color: white;
+ 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+  color: black;
+  margin-top: 40px;
+}
+
+.navItem {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  color: black; /* Add text color */
+}
+.dropdown:hover{
+  color: antiquewhite;
+}
+
+.navItem:hover {
+  color: black; /* Change to the desired hover text color */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 140%;
+  left:5%;
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #65becf;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown .nav-link {
+  color: white; /* Set dropdown link color */
+}
+
+.profile-details1 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+ 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+
+}
+
+.cart-count-badge {
+  background-color: #e44d26;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.profile-details {
+  text-align: right;
+  padding: 10px;
+ 
+  color: black;
+}
+
+.profile-details1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px;
+}
+
+
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+ 
+
+  &:hover {
+    color: black;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#65becf;
+  color: white;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10%;
+ 
+}
+
+.navItems {
+  display: flex;
+  gap: 20px;
+}
+
+.navItem {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  color: white; /* Add text color */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+
+.notificationdetails {
+  position: left;
+  color:white;
+}
+
+.notificationdetails .navItem {
+  cursor: pointer;
+  color: white;
+}
+.notificationContainer {
+  position: absolute;
+  top: 75%;
+  right: 0;
+  background-color:#65becf;
+  color:white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: -1;
+  border-radius: 5px;
+  max-height: 300px; /* Adjust the max-height as needed */
+  overflow-y: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  color: white;
+  width: 300px; 
+}
+
+
+.notificationContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notificationContainer li {
+  display: flex;
+  align-items: right;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  list-style: none;
+
+}
+
+.notificationContainer li:hover {
+  background-color: #d5dce7; /* Change to the desired hover background color */
+}
+
+.notificationContainer img {
+  width: 110px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.notificationContainer li:last-child {
+  border-bottom: none;
+  margin-bottom: 3px;
+}
+
+.producttitle,
+.producttime {
+  color:white;
+  text-decoration: none; /* Remove underline */
+
+
+}
+.producttitle,
+.producttime {
+  color: white;
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+.producttitle{
+  margin-top: 23px;
+  
+}
+
+
+.searchBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 35px 10px 10px; /* Adjust right padding to accommodate the icon */
+  font-size: 16px;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+  height:35px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px; /* Adjust as needed to align the icon */
+  cursor: pointer;
+}
+
+/* Add animation styles for vibration effect if needed */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 90% { transform: translateX(-5px); }
+  20%, 80% { transform: translateX(5px); }
+  30%, 50%, 70% { transform: translateX(-5px); }
+  40%, 60% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Apply the animation to the input when shaking */
+.shake {
+  animation: shake 0.5s ease;
+}
+
+

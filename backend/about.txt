@@ -1,0 +1,46 @@
+
+
+// for intialising the api no need when we download the folder it is only for starting purpose
+npm init -y 
+
+
+// 
+npm i express nodemon mysql
+
+---------------------------------------------------
+
+// for hash the password
+npm i bcryptjs 
+
+-----------------------------------------------
+
+// for storing the user access token
+npm i cookie-parser
+
+----------------------------------------------
+
+// for the managing the web access token 
+npm i jsonwebtoken
+--------------------------------------------
+
+// for connecting the frontend 
+npm i cors 
+
+--------------------------------------
+// for the dates 
+npm i moment 
+
+-------------------------------------
+
+---------------------------------------------
+// -> react-router-dom for routes the the browser
+
+----------------------------------------------
+
+//for creating the jwt token 
+const crypto = require('crypto');
+
+// Generate a random JWT secret key
+const jwtSecret = crypto.randomBytes(32).toString('hex');
+
+console.log('JWT Secret:', jwtSecret);

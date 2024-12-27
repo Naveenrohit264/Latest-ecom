@@ -1,0 +1,8 @@
+/* TruckAnimation.module.css */
+
+.truck {
+    position: relative;
+    font-size: 2rem;
+    transition: left 0.1s linear;
+  }
+  

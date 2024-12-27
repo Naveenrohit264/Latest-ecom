@@ -1,0 +1,84 @@
+/* Add these styles to your login.module.css */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 400px;
+}
+
+.right {
+  padding: 40px;
+}
+
+.head {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.emailinput,
+.password-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+}
+
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color:#65becf;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.forgot-password-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.new-user {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-right: 10px;
+}
+
+

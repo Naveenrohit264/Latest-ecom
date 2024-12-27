@@ -1,0 +1,103 @@
+.verifyotpcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.verifyotpform {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-size: 25px;
+  margin-top: 10%;
+}
+
+.verifyotpheading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.verifyotpheading2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.verifyotpcontainer .formgroup {
+  margin-bottom: 20px;
+}
+
+.verifyotpcontainer .label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.verifyotpcontainer .otpinputs {
+display: flex;
+ margin-left: 20%;
+  
+}
+
+.verifyotpcontainer .otpinput {
+  width: 40px;
+  margin-right: 10px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #3291a8;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.verifyotpbutton {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin-left: 35%;
+  background-color: #3291a8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.verifyotpbutton:hover {
+  background-color: #3291a8
+}
+
+.verifyotpcontainer .toastify {
+  font-family: Arial, sans-serif;
+}
+
+
+.msg{
+  margin-left: 8%;
+}
+
+
+/* Logo styles */
+.logoname {
+  margin-bottom: -100px;
+  text-align: center;
+  margin-right: 50px;
+  margin-bottom: -100px;
+}
+
+
+.realm-logo {
+  width: 10px;
+  height: auto;
+  justify-content: flex-end;
+}

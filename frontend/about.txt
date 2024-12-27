@@ -1,0 +1,82 @@
+--> for scss files 
+
+# npm i sass --dev 
+
+--> for installing the specific version 
+    # npm i package@version --dev for locally 
+    # npm i package@version --g for globally
+--------------------------------------------------------------------------------------------------------------
+
+--> for routing 
+# npm i react-router-dom
+
+go to tutorial,outlet 
+webite : https://reactrouter.com/en/main/components/outlet
+
+---------------------------------------------------------------------------------------------------------------
+--> for icons 
+
+# npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+website : https://mui.com/material-ui/material-icons/
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+--> go to setting.json in vscode and add this
+    ,"emmet.includeLanguages": {
+        "javascript" :"javascriptreact"
+    }
+
+    #examples:
+        .navbar(className) you will get total with div tag
+         <div className="navbar"></div>
+
+        #ki(name)
+        <div id="ki"></div>
+
+        h1.left(className)
+        <h1 className="left"></h1>
+
+        h1.left(className)#one(id)
+        <h1 className="left" id="one"></h1>
+        
+--------------------------------------------------------------
+
+
+ box-shadow --- in rightbar.scss
+ https://www.cssmatic.com/box-shadow
+ change according to you 
+
+
+
+
+
+ -----------------------------------------------------------
+
+
+// for getting the request from the server
+
+ npm i axios 
+
+
+ --------------------------------------------------------------
+
+library for the posts
+
+ npm i @tanstack/react-query
+
+----------------------------------------------------------------
+
+
+// for dates showing like 1 min ago like that  
+npm i moment
+
+
+
+------------------------------------------------------------
+
+//for getting the links 
+https://www.npmjs.com/package/multer?activeTab=readme
+
+ npm i multer  

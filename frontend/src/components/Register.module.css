@@ -1,0 +1,163 @@
+.register {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: flex-end; /* Change this to left-align */
+
+  align-items: center;
+  height:100vh;
+  padding-right: 2%;
+ 
+}
+.logolink {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Change this to left-align */
+  margin-top: 1%;
+  padding-right: 12%;
+  
+}
+/* .image-container {
+  flex: 1;
+} */
+.imagecontainer {
+  flex: 1;
+  border-radius: 20px;
+
+
+}
+
+
+.loginimage {
+  width: 100%;
+  height: 105vh; /* Set a custom height, adjust as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  margin-top: 3%;
+}
+
+
+
+.register .card {
+  width: 400px;
+background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(38, 38, 38, 0.1);
+  padding: 40px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.register .card:hover {
+  transform: translateY(-5px);
+}
+
+.register .right {
+  text-align: center;
+  
+}
+
+
+
+/* Input Box and Button Styles with Animations */
+.register input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+  font-size: 16px;
+  border: 1px solid black;
+ 
+}
+
+
+
+
+
+
+.register input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: black;
+  border-bottom: 1px solid black;
+  
+}
+
+/* Register Button Styles */
+.registerbutton {
+  width: 40%;
+  background-color:#3291a8 ;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registerbutton:hover {
+  background-color: #3291a8;
+  transform: scale(1.05);
+}
+
+/* Error Message Styles */
+.register .error-message {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:red;
+  color:white;
+  padding: 40px;
+  border-radius: 5px;
+  margin-top:50px ;
+  font-weight: bold;
+}
+
+/* Login Button Styles */
+.register .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register .loginbutton {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: #3291a8
+  ;
+}
+
+.register .loginbutton:hover {
+ color: white;
+  transform: scale(1.05);
+}
+
+
+.successpopup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+  animation: fadeInUp 0.5s ease-out; /* Adding a fade-in animation */
+}

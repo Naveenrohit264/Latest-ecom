@@ -1,0 +1,88 @@
+/* Wishlist.module.css */
+
+.logo {
+    width: 140px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
+    margin-right: 20px;
+  }
+  
+  .wishlistHeader {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wishlistContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+  }
+    
+  .wishlistItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px; /* Increase the width */
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #ccc;
+ 
+    transition: opacity 1s ease-out; /* Add transition for opacity */
+  }
+  
+  .wishlistItemContent {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+
+  .wishlistItemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 30px; /* Adjust the margin-right for the gap */
+  }
+  
+  .wishlistItemDetails {
+    margin-bottom: 10px;
+  }
+  
+  .wishlistItemPrice {
+    font-weight: bold; /* Make the price bold */
+    color: black; /* Set the color to black */
+  }
+  
+  .wishlistItemRemove {
+    color: #ff0000;
+    cursor: pointer;
+  }
+  
+  .wishlistItemRemove:hover {
+    color: #cc0000;
+  }
+  
+  .emptyWishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+  }
+  
+  .emptyWishlist img {
+    max-width: 200px; /* Adjust width as needed */
+  }
+  
+  .wishlistHeading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 35%;
+  }
+  
+  /* Add this class for removing animation */
+  .removing {
+    opacity: 0; /* Make the item invisible */
+  }
+  
